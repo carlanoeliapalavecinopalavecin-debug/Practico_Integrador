@@ -1,0 +1,213 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\guill\\OneDrive\\Escritorio\\Practico_Integrador1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8B69EEDE-4A31-42E2-866A-3887E2599893}|Practico_Integrador1\\Practico_Integrador1.csproj|c:\\users\\guill\\onedrive\\escritorio\\practico_integrador1\\practico_integrador1\\datos\\accesosqlserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B69EEDE-4A31-42E2-866A-3887E2599893}|Practico_Integrador1\\Practico_Integrador1.csproj|solutionrelative:practico_integrador1\\datos\\accesosqlserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B69EEDE-4A31-42E2-866A-3887E2599893}|Practico_Integrador1\\Practico_Integrador1.csproj|c:\\users\\guill\\onedrive\\escritorio\\practico_integrador1\\practico_integrador1\\datos\\accesomysql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B69EEDE-4A31-42E2-866A-3887E2599893}|Practico_Integrador1\\Practico_Integrador1.csproj|solutionrelative:practico_integrador1\\datos\\accesomysql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B69EEDE-4A31-42E2-866A-3887E2599893}|Practico_Integrador1\\Practico_Integrador1.csproj|c:\\users\\guill\\onedrive\\escritorio\\practico_integrador1\\practico_integrador1\\datos\\accesopostgres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B69EEDE-4A31-42E2-866A-3887E2599893}|Practico_Integrador1\\Practico_Integrador1.csproj|solutionrelative:practico_integrador1\\datos\\accesopostgres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B69EEDE-4A31-42E2-866A-3887E2599893}|Practico_Integrador1\\Practico_Integrador1.csproj|c:\\users\\guill\\onedrive\\escritorio\\practico_integrador1\\practico_integrador1\\dominio\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B69EEDE-4A31-42E2-866A-3887E2599893}|Practico_Integrador1\\Practico_Integrador1.csproj|solutionrelative:practico_integrador1\\dominio\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B69EEDE-4A31-42E2-866A-3887E2599893}|Practico_Integrador1\\Practico_Integrador1.csproj|c:\\users\\guill\\onedrive\\escritorio\\practico_integrador1\\practico_integrador1\\dominio\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B69EEDE-4A31-42E2-866A-3887E2599893}|Practico_Integrador1\\Practico_Integrador1.csproj|solutionrelative:practico_integrador1\\dominio\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B69EEDE-4A31-42E2-866A-3887E2599893}|Practico_Integrador1\\Practico_Integrador1.csproj|c:\\users\\guill\\onedrive\\escritorio\\practico_integrador1\\practico_integrador1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B69EEDE-4A31-42E2-866A-3887E2599893}|Practico_Integrador1\\Practico_Integrador1.csproj|solutionrelative:practico_integrador1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B69EEDE-4A31-42E2-866A-3887E2599893}|Practico_Integrador1\\Practico_Integrador1.csproj|c:\\users\\guill\\onedrive\\escritorio\\practico_integrador1\\practico_integrador1\\datos\\fabricademotor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B69EEDE-4A31-42E2-866A-3887E2599893}|Practico_Integrador1\\Practico_Integrador1.csproj|solutionrelative:practico_integrador1\\datos\\fabricademotor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B69EEDE-4A31-42E2-866A-3887E2599893}|Practico_Integrador1\\Practico_Integrador1.csproj|c:\\users\\guill\\onedrive\\escritorio\\practico_integrador1\\practico_integrador1\\datos\\motor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B69EEDE-4A31-42E2-866A-3887E2599893}|Practico_Integrador1\\Practico_Integrador1.csproj|solutionrelative:practico_integrador1\\datos\\motor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B69EEDE-4A31-42E2-866A-3887E2599893}|Practico_Integrador1\\Practico_Integrador1.csproj|c:\\users\\guill\\onedrive\\escritorio\\practico_integrador1\\practico_integrador1\\datos\\iaccesodatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B69EEDE-4A31-42E2-866A-3887E2599893}|Practico_Integrador1\\Practico_Integrador1.csproj|solutionrelative:practico_integrador1\\datos\\iaccesodatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B69EEDE-4A31-42E2-866A-3887E2599893}|Practico_Integrador1\\Practico_Integrador1.csproj|c:\\users\\guill\\onedrive\\escritorio\\practico_integrador1\\practico_integrador1\\dominio\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B69EEDE-4A31-42E2-866A-3887E2599893}|Practico_Integrador1\\Practico_Integrador1.csproj|solutionrelative:practico_integrador1\\dominio\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B69EEDE-4A31-42E2-866A-3887E2599893}|Practico_Integrador1\\Practico_Integrador1.csproj|c:\\users\\guill\\onedrive\\escritorio\\practico_integrador1\\practico_integrador1\\dominio\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B69EEDE-4A31-42E2-866A-3887E2599893}|Practico_Integrador1\\Practico_Integrador1.csproj|solutionrelative:practico_integrador1\\dominio\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B69EEDE-4A31-42E2-866A-3887E2599893}|Practico_Integrador1\\Practico_Integrador1.csproj|c:\\users\\guill\\onedrive\\escritorio\\practico_integrador1\\practico_integrador1\\dominio\\detallepedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B69EEDE-4A31-42E2-866A-3887E2599893}|Practico_Integrador1\\Practico_Integrador1.csproj|solutionrelative:practico_integrador1\\dominio\\detallepedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AccesoSqlServer.cs",
+              "DocumentMoniker": "C:\\Users\\guill\\OneDrive\\Escritorio\\Practico_Integrador1\\Practico_Integrador1\\Datos\\AccesoSqlServer.cs",
+              "RelativeDocumentMoniker": "Practico_Integrador1\\Datos\\AccesoSqlServer.cs",
+              "ToolTip": "C:\\Users\\guill\\OneDrive\\Escritorio\\Practico_Integrador1\\Practico_Integrador1\\Datos\\AccesoSqlServer.cs",
+              "RelativeToolTip": "Practico_Integrador1\\Datos\\AccesoSqlServer.cs",
+              "ViewState": "AgIAAKMAAAAAAAAAAAAAALsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T21:53:38.894Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AccesoPostgres.cs",
+              "DocumentMoniker": "C:\\Users\\guill\\OneDrive\\Escritorio\\Practico_Integrador1\\Practico_Integrador1\\Datos\\AccesoPostgres.cs",
+              "RelativeDocumentMoniker": "Practico_Integrador1\\Datos\\AccesoPostgres.cs",
+              "ToolTip": "C:\\Users\\guill\\OneDrive\\Escritorio\\Practico_Integrador1\\Practico_Integrador1\\Datos\\AccesoPostgres.cs",
+              "RelativeToolTip": "Practico_Integrador1\\Datos\\AccesoPostgres.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAALgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T21:54:14.406Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FabricaDeMotor.cs",
+              "DocumentMoniker": "C:\\Users\\guill\\OneDrive\\Escritorio\\Practico_Integrador1\\Practico_Integrador1\\Datos\\FabricaDeMotor.cs",
+              "RelativeDocumentMoniker": "Practico_Integrador1\\Datos\\FabricaDeMotor.cs",
+              "ToolTip": "C:\\Users\\guill\\OneDrive\\Escritorio\\Practico_Integrador1\\Practico_Integrador1\\Datos\\FabricaDeMotor.cs",
+              "RelativeToolTip": "Practico_Integrador1\\Datos\\FabricaDeMotor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T21:52:38.817Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Motor.cs",
+              "DocumentMoniker": "C:\\Users\\guill\\OneDrive\\Escritorio\\Practico_Integrador1\\Practico_Integrador1\\Datos\\Motor.cs",
+              "RelativeDocumentMoniker": "Practico_Integrador1\\Datos\\Motor.cs",
+              "ToolTip": "C:\\Users\\guill\\OneDrive\\Escritorio\\Practico_Integrador1\\Practico_Integrador1\\Datos\\Motor.cs",
+              "RelativeToolTip": "Practico_Integrador1\\Datos\\Motor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T21:51:34.325Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\guill\\OneDrive\\Escritorio\\Practico_Integrador1\\Practico_Integrador1\\Program.cs",
+              "RelativeDocumentMoniker": "Practico_Integrador1\\Program.cs",
+              "ToolTip": "C:\\Users\\guill\\OneDrive\\Escritorio\\Practico_Integrador1\\Practico_Integrador1\\Program.cs",
+              "RelativeToolTip": "Practico_Integrador1\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T20:26:15.091Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Categoria.cs",
+              "DocumentMoniker": "C:\\Users\\guill\\OneDrive\\Escritorio\\Practico_Integrador1\\Practico_Integrador1\\Dominio\\Categoria.cs",
+              "RelativeDocumentMoniker": "Practico_Integrador1\\Dominio\\Categoria.cs",
+              "ToolTip": "C:\\Users\\guill\\OneDrive\\Escritorio\\Practico_Integrador1\\Practico_Integrador1\\Dominio\\Categoria.cs",
+              "RelativeToolTip": "Practico_Integrador1\\Dominio\\Categoria.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T21:49:28.961Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "C:\\Users\\guill\\OneDrive\\Escritorio\\Practico_Integrador1\\Practico_Integrador1\\Dominio\\Cliente.cs",
+              "RelativeDocumentMoniker": "Practico_Integrador1\\Dominio\\Cliente.cs",
+              "ToolTip": "C:\\Users\\guill\\OneDrive\\Escritorio\\Practico_Integrador1\\Practico_Integrador1\\Dominio\\Cliente.cs",
+              "RelativeToolTip": "Practico_Integrador1\\Dominio\\Cliente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T21:49:54.074Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AccesoMySql.cs",
+              "DocumentMoniker": "C:\\Users\\guill\\OneDrive\\Escritorio\\Practico_Integrador1\\Practico_Integrador1\\Datos\\AccesoMySql.cs",
+              "RelativeDocumentMoniker": "Practico_Integrador1\\Datos\\AccesoMySql.cs",
+              "ToolTip": "C:\\Users\\guill\\OneDrive\\Escritorio\\Practico_Integrador1\\Practico_Integrador1\\Datos\\AccesoMySql.cs",
+              "RelativeToolTip": "Practico_Integrador1\\Datos\\AccesoMySql.cs",
+              "ViewState": "AgIAAJ0AAAAAAAAAAAAuwL4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T21:53:04.533Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IAccesoDatos.cs",
+              "DocumentMoniker": "C:\\Users\\guill\\OneDrive\\Escritorio\\Practico_Integrador1\\Practico_Integrador1\\Datos\\IAccesoDatos.cs",
+              "RelativeDocumentMoniker": "Practico_Integrador1\\Datos\\IAccesoDatos.cs",
+              "ToolTip": "C:\\Users\\guill\\OneDrive\\Escritorio\\Practico_Integrador1\\Practico_Integrador1\\Datos\\IAccesoDatos.cs",
+              "RelativeToolTip": "Practico_Integrador1\\Datos\\IAccesoDatos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T21:52:02.907Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Pedido.cs",
+              "DocumentMoniker": "C:\\Users\\guill\\OneDrive\\Escritorio\\Practico_Integrador1\\Practico_Integrador1\\Dominio\\Pedido.cs",
+              "RelativeDocumentMoniker": "Practico_Integrador1\\Dominio\\Pedido.cs",
+              "ToolTip": "C:\\Users\\guill\\OneDrive\\Escritorio\\Practico_Integrador1\\Practico_Integrador1\\Dominio\\Pedido.cs",
+              "RelativeToolTip": "Practico_Integrador1\\Dominio\\Pedido.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T21:50:42.102Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DetallePedido.cs",
+              "DocumentMoniker": "C:\\Users\\guill\\OneDrive\\Escritorio\\Practico_Integrador1\\Practico_Integrador1\\Dominio\\DetallePedido.cs",
+              "RelativeDocumentMoniker": "Practico_Integrador1\\Dominio\\DetallePedido.cs",
+              "ToolTip": "C:\\Users\\guill\\OneDrive\\Escritorio\\Practico_Integrador1\\Practico_Integrador1\\Dominio\\DetallePedido.cs",
+              "RelativeToolTip": "Practico_Integrador1\\Dominio\\DetallePedido.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T21:51:08.267Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Producto.cs",
+              "DocumentMoniker": "C:\\Users\\guill\\OneDrive\\Escritorio\\Practico_Integrador1\\Practico_Integrador1\\Dominio\\Producto.cs",
+              "RelativeDocumentMoniker": "Practico_Integrador1\\Dominio\\Producto.cs",
+              "ToolTip": "C:\\Users\\guill\\OneDrive\\Escritorio\\Practico_Integrador1\\Practico_Integrador1\\Dominio\\Producto.cs",
+              "RelativeToolTip": "Practico_Integrador1\\Dominio\\Producto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T21:50:20.902Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
