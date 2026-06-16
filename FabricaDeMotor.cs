@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Practico_Integrador1.Datos  // ✅ EXACTO
+namespace Practico_Integrador1.Datos  
 {
     public static class FabricaDeMotor
     {
