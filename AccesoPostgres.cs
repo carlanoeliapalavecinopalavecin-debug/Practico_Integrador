@@ -16,7 +16,7 @@ namespace Practico_Integrador1.Datos
             {
                 using var conn = new NpgsqlConnection(_conexion);
                 conn.Open();
-                Console.WriteLine("✅ Conectado a PostgreSQL");
+                Console.WriteLine(" Conectado a PostgreSQL");
 
                 using var cmdDb = new NpgsqlCommand(@"
                     SELECT 1 FROM pg_database WHERE datname = 'practico';", conn);
@@ -24,10 +24,10 @@ namespace Practico_Integrador1.Datos
                 {
                     using var cmdCreate = new NpgsqlCommand("CREATE DATABASE practico;", conn);
                     cmdCreate.ExecuteNonQuery();
-                    Console.WriteLine("✅ Base 'practico' creada");
+                    Console.WriteLine(" Base 'practico' creada");
                 }
                 else
-                    Console.WriteLine("✅ Base 'practico' ya existe");
+                    Console.WriteLine(" Base 'practico' ya existe");
 
                 conn.ChangeDatabase("practico");
 
@@ -78,11 +78,11 @@ namespace Practico_Integrador1.Datos
 
                 using var cmdCrear = new NpgsqlCommand(sqlTablas, conn);
                 cmdCrear.ExecuteNonQuery();
-                Console.WriteLine("✅ Tablas creadas");
+                Console.WriteLine(" Tablas creadas");
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"❌ Error RF2: {ex.Message}");
+                Console.WriteLine($" Error RF2: {ex.Message}");
                 throw;
             }
         }
@@ -157,12 +157,12 @@ namespace Practico_Integrador1.Datos
                 }
 
                 tran.Commit();
-                Console.WriteLine("✅ Datos insertados");
+                Console.WriteLine(" Datos insertados");
             }
             catch (Exception ex)
             {
                 tran.Rollback();
-                Console.WriteLine($"❌ Error RF3: {ex.Message} → ROLLBACK");
+                Console.WriteLine($" Error RF3: {ex.Message} → ROLLBACK");
                 throw;
             }
         }
@@ -176,7 +176,7 @@ namespace Practico_Integrador1.Datos
 
             try
             {
-                Console.WriteLine("\n🔍 C1: Productos con categoría");
+                Console.WriteLine("\n C1: Productos con categoría");
                 string c1 = @"
                     SELECT p.id, p.nombre, p.precio, c.nombre AS categoria
                     FROM productos p
@@ -189,7 +189,7 @@ namespace Practico_Integrador1.Datos
                         Console.WriteLine($"#{lector["id"]} {lector["nombre"]} | ${lector["precio"]:F2} | {lector["categoria"]}");
                 }
 
-                Console.WriteLine("\n🔍 C2: Total Pedido #1");
+                Console.WriteLine("\n C2: Total Pedido #1");
                 string c2 = @"
                     SELECT pr.nombre, d.cantidad, d.precio_unitario, (d.cantidad * d.precio_unitario) AS subtotal
                     FROM detalle_pedido d
@@ -207,14 +207,14 @@ namespace Practico_Integrador1.Datos
                         Console.WriteLine($"{lector["nombre"]} x{lector["cantidad"]} | Subtotal: ${sub:F2}");
                     }
                 }
-                Console.WriteLine($"✅ TOTAL: ${total:F2}");
+                Console.WriteLine($" TOTAL: ${total:F2}");
 
                 string u1 = "UPDATE productos SET precio = precio * 1.10 WHERE categoria_id = @cat";
                 using (var cmd = new NpgsqlCommand(u1, conn, tran))
                 {
                     cmd.Parameters.AddWithValue("@cat", 1);
                     int filas = cmd.ExecuteNonQuery();
-                    Console.WriteLine($"✅ Actualizadas: {filas} filas");
+                    Console.WriteLine($" Actualizadas: {filas} filas");
                 }
 
                 string d1 = "DELETE FROM detalle_pedido WHERE pedido_id = @ped AND producto_id = @prod";
@@ -223,7 +223,7 @@ namespace Practico_Integrador1.Datos
                     cmd.Parameters.AddWithValue("@ped", 1);
                     cmd.Parameters.AddWithValue("@prod", 1);
                     int filas = cmd.ExecuteNonQuery();
-                    Console.WriteLine($"✅ Borradas: {filas} filas");
+                    Console.WriteLine($" Borradas: {filas} filas");
                 }
 
                 tran.Commit();
@@ -231,7 +231,7 @@ namespace Practico_Integrador1.Datos
             catch (Exception ex)
             {
                 tran.Rollback();
-                Console.WriteLine($"❌ Error RF4: {ex.Message} → ROLLBACK");
+                Console.WriteLine($" Error RF4: {ex.Message} → ROLLBACK");
                 throw;
             }
         }
@@ -245,26 +245,26 @@ namespace Practico_Integrador1.Datos
             decimal antes;
             using (var cmd = new NpgsqlCommand("SELECT precio FROM productos WHERE id = 1", conn))
                 antes = Convert.ToDecimal(cmd.ExecuteScalar());
-            Console.WriteLine($"🔹 Precio ANTES: ${antes:F2}");
+            Console.WriteLine($" Precio ANTES: ${antes:F2}");
 
             try
             {
                 using var tran = conn.BeginTransaction();
                 using var cmdUpd = new NpgsqlCommand("UPDATE productos SET precio = 999 WHERE id = 1", conn, tran);
                 cmdUpd.ExecuteNonQuery();
-                Console.WriteLine("✏️ Precio cambiado");
-                throw new Exception("❌ ERROR");
+                Console.WriteLine(" Precio cambiado");
+                throw new Exception(" ERROR");
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"⚠️ Excepción: {ex.Message} → SE DESHACE");
+                Console.WriteLine($" Excepción: {ex.Message} → SE DESHACE");
             }
 
             decimal despues;
             using (var cmd = new NpgsqlCommand("SELECT precio FROM productos WHERE id = 1", conn))
                 despues = Convert.ToDecimal(cmd.ExecuteScalar());
-            Console.WriteLine($"🔹 Precio DESPUÉS: ${despues:F2}");
-            Console.WriteLine(antes == despues ? "✅ CORRECTO" : "❌ FALLO");
+            Console.WriteLine($" Precio DESPUÉS: ${despues:F2}");
+            Console.WriteLine(antes == despues ? " CORRECTO" : " FALLO");
         }
     }
 }
